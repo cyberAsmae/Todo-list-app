@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>ToDo List App </title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<header class="siteHeader">
+	<h1 class="siteHeaderTitle">Todo List</h1>
+	<h2 class="siteHeaderTag">What am I doing today?</h2>
+</header>
+
+<main>
+	<section id="input" class="todoInput">
+		<form class="todoForm">
+			<label for="todoItemInput" class="todoLabel">To Do:</label>
+			<input id="todoItemInput" type="text" placeholder="I need to do..." />
+			<input id="addItemBtn" type="button" value="Add ToDo &raquo;" onclick = reset()/>
+		</form>
+	</section>
+
+	<section id="output" class="todoOutput">
+		<h1 class="todoTitle">Things to do today:</h1>
+		<ol id="todoList">
+			<li>workout...</li>
+		</ol>
+	</section>
+</main>
+
+  <script  src="./script.js"></script>
+
+</body>
+</html>
